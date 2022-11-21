@@ -19,6 +19,11 @@ public class Main {
                b= sc.nextInt();
                x=a-b;
                System.out.println(a+"-"+b+"="+x);
+           case 3:System.out.println("Enter 2 number");
+               a=sc.nextInt();
+               b= sc.nextInt();
+               x=a*b;
+               System.out.println(a+"*"+b+"="+x);
 
 
        }
