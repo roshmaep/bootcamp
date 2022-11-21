@@ -5,7 +5,7 @@ public class Main {
         int c,a,b,x;
         Scanner sc=new Scanner(System.in);
    do {
-       System.out.println("Main menu\n1.Addition\n2.subtraction\n3.multiptication\n4.Division");
+       System.out.println("Main menu\n1.Addition\n2.subtraction\n3.multiptication\n4.Division\n5.Exit");
        System.out.println("Enter your choice");
        c=sc.nextInt();
        switch(c){
@@ -14,16 +14,19 @@ public class Main {
            b= sc.nextInt();
             x=a+b;
             System.out.println(a+"+"+b+"="+x);
+            break;
            case 2:System.out.println("Enter 2 number");
                a=sc.nextInt();
                b= sc.nextInt();
                x=a-b;
                System.out.println(a+"-"+b+"="+x);
+               break;
            case 3:System.out.println("Enter 2 number");
                a=sc.nextInt();
                b= sc.nextInt();
                x=a*b;
                System.out.println(a+"*"+b+"="+x);
+               break;
 
            case 4:System.out.println("Enter 2 number");
                float e=sc.nextFloat();
@@ -31,6 +34,11 @@ public class Main {
                float y;
                y=e/d;
                System.out.println(e+"/"+d+"="+y);
+               break;
+           case 5:System.out.println("Exiting....");
+               break;
+           default:System.out.println("invalid choice...Please enter your choice... ");
+               break;
 
        }
 
