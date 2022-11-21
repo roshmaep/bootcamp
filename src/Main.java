@@ -25,13 +25,18 @@ public class Main {
                x=a*b;
                System.out.println(a+"*"+b+"="+x);
 
-
+           case 4:System.out.println("Enter 2 number");
+               float e=sc.nextFloat();
+               float d= sc.nextFloat();
+               float y;
+               y=e/d;
+               System.out.println(e+"/"+d+"="+y);
 
        }
 
 
 
-   }while(c!=4);
+   }while(c!=5);
 
     }
 }
